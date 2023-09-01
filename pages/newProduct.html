@@ -1,67 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Producto nuevo</title>
 </head>
 
 <body>
     <header>
         <nav>
             <section>
-                <img src="./assets/Control.svg" alt="control" srcset="">
-                <img src="./assets/Texto.svg" alt="AluraGeek" srcset="">
+                <img src="../assets/Control.svg" alt="control" srcset="">
+                <img src="../assets/Texto.svg" alt="AluraGeek" srcset="">
                 <div>
                     <input type="text" name="barraNav" id="barraNav" placeholder="¿Que deseas buscar?">
-                    <img src="./assets/Icone.svg" alt="iconoBusqueda">
+                    <img src="../assets/Icone.svg" alt="iconoBusqueda">
                 </div>
-                <button>Login</button>
+                <button>Menú Administrador</button>
             </section>
         </nav>
     </header>
 
     <section>
-        <div>
-            <h1>Febrero Promocional</h1>
-            <h4>Productos selecionados con 33% de descuento</h4>
-        </div>
-        <button>Ver Consolas</button>
-    </section>
-
-    <section>
-        <div class="starWars">
-            <div class="titulo__starWars">
-                <h2>starWars</h2>
-                <button></button>
-            </div>
-            <div class="productos__StarWars">
-                <!--Hay que insertar los inputs de json-server-->
-            </div>
-        </div>
-
-        <div class="consolas">
-            <div class="titulo__Consolas">
-                <h2>Consolas</h2>
-                <button></button>
-            </div>
-            <div class="productos__Consolas">
-                <!--Hay que insertar los inputs de json-server-->
-            </div>
-        </div>
-
-        <div class="diversos">
-            <div class="titulo__Diversos">
-                <h2>Diversos</h2>
-                <button></button>
-            </div>
-            <div class="productos__Diversos">
-                <!--Hay que insertar los inputs de json-server-->
-            </div>
-        </div>
+        <h2>Agregar nuevo producto</h2>
+        <form>
+            <ul>
+                <li><input type="url" name="url-image" id="url-image" placeholder="URL de imagen"></li>
+                <li><input type="text" name="categorias" id="categoria" placeholder="Categoría"></li>
+                <li><input type="text" name="nombre-producto" id="nombreproducto" placeholder="Nombre del producto"></li>
+                <li><input type="number" name="precio-producto" id="precioproducto" placeholder="Precio del producto"></li>
+                <li><input type="text" name="descripcion-producto" id="descripcionproducto" placeholder="Descripción del producto"></li>
+            </ul>
+            <button>Agregar producto</button>
+        </form>
     </section>
 
     <section>
@@ -92,6 +66,7 @@
     <footer>
         <h2>Desarrollado por Jareth Guerrero <p> 2023</h2>
     </footer>
+
 </body>
 
 </html>
