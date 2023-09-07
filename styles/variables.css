@@ -1,0 +1,13 @@
+:root {
+    --font-Raleway: Raleway, sans-serif;
+    --bacground-color-white: #FFFFFF;
+    --background-gray: #F5F5F5;
+    --color-gray-30: #C8C8C8;
+    --color-gray-50: #A2A2A2;
+    --color-gray-100: #464646;
+    --color-blue: #2A7AE4;
+    --color-blue-10: #EAF2FD;
+    --color-blue-30: #C8C8C8;
+    --background-image-banner: url("../assets/banner-image.png");
+
+}

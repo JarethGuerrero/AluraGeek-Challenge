@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
-    <title>Administrar Productos</title>
+    <title>Producto nuevo</title>
 </head>
 
 <body>
@@ -19,18 +20,23 @@
                     <input type="text" name="barraNav" id="barraNav" placeholder="¿Que deseas buscar?">
                     <img src="../assets/Icone.svg" alt="iconoBusqueda">
                 </div>
+                <button>Menú Administrador</button>
             </section>
         </nav>
     </header>
 
     <section>
-        <div>
-            <h2>Todos los productos</h2>
+        <h2>Agregar nuevo producto</h2>
+        <form>
+            <ul>
+                <li><input type="url" name="url-image" id="url-image" placeholder="URL de imagen"></li>
+                <li><input type="text" name="categorias" id="categoria" placeholder="Categoría"></li>
+                <li><input type="text" name="nombre-producto" id="nombreproducto" placeholder="Nombre del producto"></li>
+                <li><input type="number" name="precio-producto" id="precioproducto" placeholder="Precio del producto"></li>
+                <li><input type="text" name="descripcion-producto" id="descripcionproducto" placeholder="Descripción del producto"></li>
+            </ul>
             <button>Agregar producto</button>
-        </div>
-        <div>
-            <!--Aqui se insertarán todos los productos registrados en la api-->
-        </div>
+        </form>
     </section>
 
     <section>
@@ -60,7 +66,8 @@
 
     <footer>
         <h2>Desarrollado por Jareth Guerrero <p> 2023</h2>
-    </footer>
+    </footer>   
+
 </body>
 
 </html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/variables.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <script src="https://kit.fontawesome.com/d0b18cebc5.js" crossorigin="anonymous"></script>
+    <title>Login AluraGeek</title>
+</head>
+
+<body>
+    <header>
+        <nav class="encabezado">
+            <div class="logo-busqueda">
+                <div class="logo">
+                    <img src="../assets/Control.svg" alt="control" srcset="">
+                    <img src="../assets/Texto.svg" alt="AluraGeek" srcset="">
+                </div>
+                <div class="container-barra-busqueda">
+                    <input class="barra-busqueda" type="text" name="barraBusqueda" id="barraBusqueda"
+                        placeholder="¿Que deseas buscar?">
+                    <button class="boton-busqueda"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="box-login">
+        <form class="box-login__form">
+            <h2>Iniciar Sesión</h2>
+            <input class="box-input" type="email" name="email" id="email" placeholder="Escriba su correo electrónico">
+            <input class="box-input" type="password" name="password" id="password" placeholder="Escriba su contraseña">
+            <button>Entrar</button>
+        </form>
+    </section>
+
+    <section class="rod">
+        <div class="rod__cont">
+            <div class="rod__cont-logo">
+                <img src="../assets/Control.svg" alt="" srcset=""><img src="../assets/Texto.svg" alt="" srcset="">
+            </div>
+            <div class="rod__cont-links">
+                <ul>
+                    <a class="link-style" href="#">Quienes somos</a>
+                    <a class="link-style" href="#">Política de privacidad</a>
+                    <a class="link-style" href="#">Programa de fidelidad</a>
+                    <a class="link-style" href="#">Nuestras tiendas</a>
+                    <a class="link-style" href="#">Quiero ser franquiciado</a>
+                    <a class="link-style" href="#">Anuncie aquí</a>
+                </ul>
+            </div>
+            <form class="rod__cont-contacto">
+                <h3>Hable con nosotros</h3>
+                <div class="rod__cont-form"> <!--Aqui y en el textarea hay que poner una baseline, checar figma-->
+                    <input type="text" name="Nombre" id="" placeholder="Nombre">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                        placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button>Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Desarrollado por Jareth Guerrero</h2>
+        <h2>2023</h2>
+    </footer>
+</body>
+
+</html>

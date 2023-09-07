@@ -1,0 +1,32 @@
+.productos__contenido {
+    padding-top: 4rem;
+}
+
+.productos__contenido:last-of-type {
+    padding-bottom: 4rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1133px;
+}
+
+.menu h2 {
+    color: var(--color-gray-100);
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.menu button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background-color: var(--bacground-color-white);
+    color: var(--color-blue);
+    font-size: 1rem;
+    font-weight: 700;
+}
